@@ -42,4 +42,22 @@ public class AreaController {
 		
 		return result;
 	}
+    
+    @ResponseBody
+	@RequestMapping(value = "/getAreas", method = RequestMethod.POST)
+	public Result getAreas(@RequestBody Map<String,Object> reqMap) {
+    	
+    	String  areaName= (String) reqMap.get("areaName");
+		Result result = new Result();
+		List<Area> areas = null;
+		try{
+			areas = commonService.searchAreaByName(areaName);
+			result.setData(areas);
+			
+		}catch(Exception e){
+			 e.printStackTrace();
+		}
+		
+		return result;
+	}
 }

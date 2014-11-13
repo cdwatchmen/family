@@ -44,6 +44,7 @@
                 /user/** = anon
                 / = anon
                 /index = anon
+                /load/** = anon
                 /signup = anon
                 /area/** = anon
                 /person/** = anon

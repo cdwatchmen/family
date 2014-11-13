@@ -9,7 +9,17 @@ public class RelationShip {
 	private String parentId;
 	private int familyType;
 	
+	private int personIndex;
 	
+	
+	
+	
+	public int getPersonIndex() {
+		return personIndex;
+	}
+	public void setPersonIndex(int personIndex) {
+		this.personIndex = personIndex;
+	}
 	public int getFamilyType() {
 		return familyType;
 	}

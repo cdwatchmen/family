@@ -27,7 +27,7 @@ body { color: #333; font-family: "宋体", Arial; font-size: 12px; background: #
 .treeitem:hover{}
 .treeitem:hover .treesub{ display:inline-block;}
 .treeitem .bd .tools{ display:none; position:absolute; top:5px; left:5px; width:66px; height:66px; background-color:rgba(0,0,0,0.6); border-radius:50%;}
-.treeitem .bd .tools .tools-bd{ text-align:center; height:100%; vertical-align:middle; overflow:hidden;}
+.treeitem .bd .tools .tools-bd{ text-align:center; height:100%; vertical-align:middle; overflow:hidden; border-radius:50%;}
 .treeitem .bd .tools .tools-bd a{ color:#fff; display:inline-block; padding-top:25px;vertical-align:middle; text-align:center;}
 .icon-edit{ width:14px; height:14px; vertical-align:-2px; margin-right:2px; display:inline-block; overflow:hidden; background:url(../images/icon-edit.png) no-repeat;}
 .treeitem:hover .tools{ display:block;}

@@ -281,7 +281,8 @@
 			relationship_type,
 			generation,
 			isFamilyAdmin,
-			familyType
+			familyType,
+			personIndex
         )values
         ( 
            #{personId,jdbcType=VARCHAR},
@@ -290,7 +291,8 @@
 	       #{relationShipType,jdbcType=NUMERIC},
 	       #{generation,jdbcType=NUMERIC},
 	       #{isFamilyAdmin,jdbcType=NUMERIC},
-	       #{familyType,jdbcType=NUMERIC}
+	       #{familyType,jdbcType=NUMERIC},
+	       #{personIndex,jdbcType=NUMERIC}
 	       
         ) 
 	</insert>
